@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Normalgirişanchorpane" prefHeight="398.0" prefWidth="509.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.veriyapilariprojee.normalgirisController">
+   <children>
+      <ImageView fitHeight="634.0" fitWidth="643.0" layoutX="-66.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ziraatarkaplan.jpg" />
+         </image>
+      </ImageView>
+
+      <!-- Menü Label'ları -->
+      <Label fx:id="normalGirisLabel" layoutX="150.0" layoutY="100.0" style="-fx-underline: true; -fx-text-fill: white; -fx-font-size: 16px; -fx-cursor: hand;" text="Normal Giriş" textFill="#232121f0" />
+      <Label fx:id="oncelikliGirisLabel" layoutX="290.0" layoutY="100.0" style="-fx-underline: false; -fx-text-fill: gray; -fx-font-size: 16px; -fx-cursor: hand;" text="Öncelikli Giriş" />
+
+      <TextField fx:id="normalgiristextfieldadsoyad" layoutX="133.0" layoutY="213.0" prefHeight="42.0" prefWidth="312.0" stylesheets="@normalgiris.css" />
+      <TextField fx:id="normalgiristc" layoutX="134.0" layoutY="281.0" prefHeight="42.0" prefWidth="312.0" stylesheets="@normalgiris.css" />
+      <Button fx:id="normalgirisgirisyap" layoutX="391.0" layoutY="412.0" mnemonicParsing="false" onAction="#gotogirissekmesi" prefHeight="36.0" prefWidth="153.0" stylesheets="@normalgiris.css" text="Giriş Yap" />
+      <Button fx:id="normalgirisgeridon" layoutX="39.0" layoutY="412.0" mnemonicParsing="false" onAction="#backtomusterikaydi" prefHeight="36.0" prefWidth="153.0" stylesheets="@normalgiris.css" text="Geri Dön" />
+      <Label fx:id="txt1" layoutX="75.0" layoutY="144.0" prefHeight="18.0" prefWidth="459.0" text="Lütfen adınızı ve T.C. kimlik numaranızı girip ,&quot;Giriş Yap&quot; butonuna basınız" textFill="#f7f3f3">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="64.0" fitWidth="212.0" layoutX="183.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="61.0" layoutY="225.0" text="Ad" textFill="#f2ebeb">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="293.0" text="T.C." textFill="#faf8f8">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="77.0" fitWidth="154.0" layoutX="203.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@kalkuluss.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

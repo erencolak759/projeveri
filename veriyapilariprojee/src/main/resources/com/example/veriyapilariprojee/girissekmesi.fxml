@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="397.0" prefWidth="530.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.veriyapilariprojee.girissekmesiController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ziraatarkaplan.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="girissekmelabeluyari" layoutX="167.0" layoutY="107.0" text="Lütfen yapacağınız işlemi seçiniz" textFill="#f2eaea">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="girissekmebutonparayatır" layoutX="23.0" layoutY="147.0" mnemonicParsing="false" onAction="#parayatir" prefHeight="38.0" prefWidth="136.0" style="-fx-background-radius: 30;" text="Para Yatırma" />
+      <Button fx:id="girissekmebutonparacekme" layoutX="23.0" layoutY="214.0" mnemonicParsing="false" onAction="#paracek" prefHeight="38.0" prefWidth="136.0" style="-fx-background-radius: 30;" text="Para Çekme" />
+      <Button fx:id="girissekmebutongeridon" layoutX="23.0" layoutY="282.0" mnemonicParsing="false" onAction="#backtonormalgiris" prefHeight="38.0" prefWidth="136.0" style="-fx-background-radius: 30;" text="Geri Dön" />
+      <Button fx:id="ödemeislemleributton" layoutX="366.0" layoutY="147.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="136.0" style="-fx-border-radius: 5; -fx-border-width: 3; -fx-background-radius: 30;" text="Ödeme İşlemleri" />
+      <Label fx:id="girissekmelabelhosgeldin" layoutX="46.0" layoutY="79.0" prefHeight="28.0" prefWidth="302.0" text="Hoşgeldiniz:" textFill="#fcf2f2">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="53.0" fitWidth="213.0" layoutX="159.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+
+      </ImageView>
+      <Button fx:id="buttonbasvuruislemleri" layoutX="366.0" layoutY="207.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="136.0" style="-fx-border-radius: 5; -fx-border-width: 3; -fx-background-radius: 30;" text="Başvuru İşlemleri" />
+      <ImageView fitHeight="18.0" fitWidth="38.0" layoutX="41.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@oksola-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="18.0" fitWidth="38.0" layoutX="41.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@oksola-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="18.0" fitWidth="38.0" layoutX="36.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@oksola-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="18.0" fitWidth="38.0" layoutX="483.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@sagaokk.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="18.0" fitWidth="38.0" layoutX="483.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@sagaokk.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

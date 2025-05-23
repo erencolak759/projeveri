@@ -1,0 +1,39 @@
+[
+  {
+    "adSoyad": "osmannn",
+    "tc": "1234",
+    "oncelikli": true,
+    "oncelikNedeni": "Hamile"
+  },
+  {
+    "adSoyad": "emre",
+    "tc": "111",
+    "oncelikli": true,
+    "oncelikNedeni": "Engelli"
+  },
+  {
+
+  },
+  {
+    "adSoyad": "bedo",
+    "tc": "3",
+    "oncelikli": true,
+    "oncelikNedeni": "Yaş \u003e 65"
+  },
+  {
+
+  },
+  {
+
+  },
+  {
+
+  },
+  {
+
+  },
+  {
+
+  }
+
+]

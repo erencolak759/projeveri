@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="533.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.veriyapilariprojee.paraYatirmaOnay">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="558.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ziraatarkaplan.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="96.0" layoutY="27.0" opacity="0.5" prefHeight="27.0" prefWidth="358.0" style="-fx-alignment: transparent;" text="Lütfen Yatırmak İstediğiniz Miktarı Belirtiniz" textFill="#f2eeee">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="25.0" layoutY="100.0" mnemonicParsing="false" opacity="0.5" prefHeight="26.0" prefWidth="63.0" style="-fx-background-color: gray;" textFill="#5e5959" />
+      <Button layoutX="25.0" layoutY="187.0" mnemonicParsing="false" opacity="0.5" prefHeight="26.0" prefWidth="63.0" style="-fx-background-color: gray;" textFill="#5e5959" />
+      <Button layoutX="25.0" layoutY="266.0" mnemonicParsing="false" opacity="0.5" prefHeight="26.0" prefWidth="63.0" style="-fx-background-color: gray;" textFill="#5e5959" />
+      <Button layoutX="440.0" layoutY="100.0" mnemonicParsing="false" opacity="0.5" prefHeight="26.0" prefWidth="63.0" style="-fx-background-color: gray;" textFill="#5e5959" />
+      <Button layoutX="440.0" layoutY="187.0" mnemonicParsing="false" opacity="0.5" prefHeight="26.0" prefWidth="63.0" style="-fx-background-color: gray;" textFill="#5e5959" />
+      <Button layoutX="440.0" layoutY="279.0" mnemonicParsing="false" opacity="0.5" prefHeight="26.0" prefWidth="63.0" style="-fx-background-color: gray;" textFill="#5e5959" />
+      <Button layoutX="235.0" layoutY="335.0" mnemonicParsing="false" opacity="0.5" text="Geri Dön" />
+      <AnchorPane layoutX="95.0" layoutY="87.0" prefHeight="212.0" prefWidth="340.0" style="-fx-border-color: gray; -fx-border-width: 2; -fx-border-radius: 5;">
+         <children>
+            <Label fx:id="txtyeni" layoutX="102.0" layoutY="14.0" text="Para Yatırma İşlemi Başarılı" textFill="#f4efef">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="txtyeni2" layoutX="14.0" layoutY="59.0" text="Güncel bakiyeniz:" textFill="#f4f1f1" />
+             <Label fx:id="txtbakiye" layoutX="132.0" layoutY="59.0" text="Bakiyeniz: 0 TL" />
+            <Button fx:id="geridon2" layoutX="143.0" layoutY="162.0" mnemonicParsing="false" onAction="#backtogirissekmesi2" text="Geri Dön" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

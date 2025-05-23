@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="530.0" style="-fx-background-color: #f2f2f2;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.veriyapilariprojee.KuyrukController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ziraatarkaplan.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="kuyruLabel" layoutX="100.0" layoutY="110.0" text="Sn. Müşteri, sıraya alındınız. Lütfen bekleyiniz..." textFill="#ece9e9">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnIslemlereGec" layoutX="180.0" layoutY="239.0" mnemonicParsing="false" onAction="#islemlereGec" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #4a4a4a; -fx-text-fill: white; -fx-font-size: 14px; -fx-background-radius: 12px;" text="İşlemlere Geç" />
+   </children>
+</AnchorPane>
